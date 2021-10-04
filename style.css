@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    height: 7vw;
+}
+
+nav ul {
+    display: flex;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.qwerty {
+    padding: 7vh;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.qwerty:hover {
+    color: rgb(7, 167, 241);
+    font-weight: bold;
+}
+
+#txt {
+    padding-top: 0px;
+    padding-left: 12px;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid rgb(136, 133, 135);
+    background-color: white;
+}
+
+.slider {
+    width: 100vw;
+    overflow: hidden;
+}
+
+footer {
+    height: 12vh;
+    background-color: black;
+    color: white;
+    font-size: 4.9vh
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.mainn {
+    min-height: calc(120vh);
+    background-color: white;
+    color: rgb(17, 17, 17);
+    max-height: 250vh;
+}
+
+.card {
+    max-width: 98vw;
+    margin: 12px;
+    margin-top: -8px;
+    flex-direction: column;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}

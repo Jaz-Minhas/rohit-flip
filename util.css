@@ -1,0 +1,29 @@
+        .flex-all-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .search {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            height: 10%;
+            width: 4%;
+            margin: 10px;
+            color: rgb(136, 133, 135);
+            border: 3px solid rgb(136, 133, 135);
+            background-color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .my-2 {
+            margin-top: 12px;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
